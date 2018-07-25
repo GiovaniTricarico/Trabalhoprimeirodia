@@ -24,3 +24,7 @@ Route::get('resource','ProdutoController@showResource');
 Route::apiResource('parceiros', 'ParceiroController');
 
 Route::get('x','ParceiroController@showResource');
+
+Route::apiResource('servicos', 'ServicoController');
+
+Route::get('y','ServicoController@showResource');
